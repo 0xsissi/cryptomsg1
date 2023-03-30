@@ -1,0 +1,66 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "number",
+                "type": "felt"
+            }
+        ],
+        "name": "set_telephone",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "read_telephone",
+        "outputs": [
+            {
+                "name": "number",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            },
+            {
+                "name": "msg",
+                "type": "felt"
+            }
+        ],
+        "name": "set_message",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "read_message",
+        "outputs": [
+            {
+                "name": "msg",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
